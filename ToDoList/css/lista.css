@@ -1,0 +1,28 @@
+.list{
+    padding-top: 10px;
+    margin-top: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.list1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.list2{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.list3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+///ul li::before{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    
