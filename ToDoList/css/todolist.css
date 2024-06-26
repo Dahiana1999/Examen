@@ -10,7 +10,6 @@
     background-color: rgb(211, 175, 245);
     padding: 15px;
     font-family:Robotu4;
-    display: flex;
 }
 
 .TodoList{
@@ -23,7 +22,10 @@
     color: aliceblue;
     text-align: center;
 }
-
+h1{
+    font-family: 'Lucida Sans';
+    font-size: 50px;
+}
 .img {
     width: 80px;
     height: 80px;
@@ -31,6 +33,7 @@
 
 .barrita{
     display: flex;
+    margin-top: 35px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -59,3 +62,4 @@
     height: 30px;
     border-radius: 10px;
 }
+

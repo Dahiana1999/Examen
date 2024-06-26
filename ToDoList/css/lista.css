@@ -1,28 +1,15 @@
 .list{
-    padding-top: 10px;
+    padding-top: 20px;
     margin-top: 10px;
     list-style: none;
     cursor: pointer;
-}
-
-.list1{
+    display: grid;
+    grid-template-columns: 30% 30% ;
+    grid-template-rows: 40% 40% 40%; 
+    gap: 15px;
     font-weight: bold;
     font-size: 20px;
-}
-.list2{
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 10px;
+    font-family: 'Lucida Sans';
 }
 
-.list3{
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 10px;
-}
 
-///ul li::before{
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-    
