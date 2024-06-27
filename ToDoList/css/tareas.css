@@ -1,0 +1,87 @@
+h2 {
+  font-family: Roboto;
+  font-size: 40px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(52, 0, 100);
+  padding-bottom: 20px;
+}
+.container {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+  height: 50px;
+  background-color: rgb(211, 175, 245);
+  border-radius: 10px;
+  color: rgb(52, 0, 100);
+}
+
+.inputAdd {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  border: 3px solid rgb(52, 0, 100);
+  font-weight: bold;
+  color: rgb(52, 0, 100);
+  outline: none;
+}
+
+.btn-add {
+  border: 3px solid rgb(52, 0, 100);
+  font-weight: bold;
+  color: rgb(52, 0, 100);
+  background-color: aliceblue;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+} /*boton de agregar*/
+
+.lista {
+  list-style: none;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(82, 82, 82);
+} /*ul vacio de html*/
+
+
+
+li {
+  list-style: none;
+  background-color: rgb(228, 208, 247);
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+} /*lista de tareas creada en JS*/
+
+li p {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+} /*texto de la lista creada en js*/
+
+.btn-delete {
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    background-color: #3c3c3c;
+    color: rgb(220, 200, 237);
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 20px;
+  }
+
+.empty {
+    margin-top: 50px;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(209, 209, 209);
+}  

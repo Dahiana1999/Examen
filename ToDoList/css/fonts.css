@@ -1,21 +1,26 @@
 
 @font-face {
     font-family: Roboto;
-    src: url("fonts/Roboto/Roboto-Bold.ttf") format(truetype);
+    src: url("./ToDoList/font/Roboto/Roboto-Bold.ttf") format(truetype);
     font-weight: 400;
   }
   @font-face {
     font-family: Roboto2;
-    src: url("fonts/Roboto/Roboto-Light.ttf") format(truetype);
+    src: url("./ToDoList/font/Roboto/Roboto-Light.ttf") format(truetype);
     font-weight: 400;
   }
   @font-face {
     font-family: Robotu;
-    src: url("fonts/Roboto/Roboto-Regular.ttf") format(truetype);
+    src: url("./ToDoList/font/Roboto/Roboto-Regular.ttf") format(truetype);
     font-weight: 400;
   }
   @font-face {
     font-family: Roboto4;
-    src: url("fonts/Roboto/Roboto-Medium.ttf") format(truetype);
+    src: url("./ToDoList/font/Roboto/Roboto-Medium.ttf") format(truetype);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: Play;
+    src: url("./ToDoList/font/Roboto/static/PlaywriteESDeco-Light.ttf") format(truetype);
     font-weight: 400;
   }

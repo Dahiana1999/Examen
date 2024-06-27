@@ -1,0 +1,37 @@
+.section2{
+    background-color: rgb(211, 175, 245);
+    padding-top: 0%;
+    margin-top: 0%;
+    border-top: 0%;
+}
+.check {
+    width: 400px;
+    min-height: 60px;
+    margin: 12px auto 30px;
+    padding: 50px 40px 55px; 
+    background-color: rgb(52, 0, 100);
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.ul_li {
+    display: grid;
+    grid-template-columns: 15% 60%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+}
+
+.click {
+    width: 40px;
+    height: 40px;
+}
+.day {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 25px;
+    font-family: Roboto;
+    text-align: center;
+    background-color: rgb(52, 0, 100);
+}

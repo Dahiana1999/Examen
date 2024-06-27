@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  type="text/css" href="./ToDoList/css/todolist.css">
-    <link rel="stylesheet"  type="text/css" href="./ToDoList/css/lista.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./ToDoList/css/HeaderMain.css" />
+    <link rel="stylesheet" type="text/css" href="./ToDoList/css/tareas.css" />
+    <link rel="stylesheet" type="text/css" href="./ToDoList/css/check.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet">
     <title>To Do List</title>
-</head>
-<body>
-    <header> <h1>Organiza tu día<img class="img" src="./ToDoList/img/bloc.webp"></h1> </header>
+  </head>
+  <body>
+    <header>
+      <h1>Organiza tu día<img class="img" src="./ToDoList/img/bloc.webp" /></h1>
+    </header>
     <main class="root">
-        <div class="TodoList">
-            <h2>Envía tus tareas</h2>
-            <div class="barrita">
-                <input type="text" class="input">
-                <button class="boton">Enviar</button>
-            </div>
-            <div>
-                <ul class="list">
-                    <input type = "checkbox" checked>
-                    <li class="list1">Tarea</li>
-                    <input type = "checkbox" checked>
-                    <li class="list2">Fecha</li>
-                    <input type = "checkbox" checked>
-                    <li class="list3">Lugar</li>
-                </ul>
-            </div>
+      <div class="TodoList">
+        <h2>Anota tus tareas<img class="img" src="./ToDoList/img/2.png" /></h2>
+        <div class="container">
+          <div class="agregar">
+            <form>
+              <input type="text" class="inputAdd" placeholder="Agregar tarea..."/>
+              <button class="btn-add">Enviar</button>
+            </form>
+          </div>
+        </div>
+        <section>
+          <div class="respuesta">
+            <ul class="lista"></ul>
+          </div>
+          <div class="empty">
+            <p>No tienes tareas pendientes</p>
+          </div>
+        </section>
+        <div class="check">
+            <ul class="ul_li">
+              <input type="checkbox" class="click">
+              <li class="day">Día cumplido</li>
+            </ul>
         </div>
     </main>
-    <footer> Trabajo hecho por Dahiana Machado</footer>
+    <footer>
+      <h3>Trabajo hecho por Dahiana Machado</h3>
+    </footer>
     <script src="./ToDoList/js/script.js"></script>
-</body>
+  </body>
 </html>
