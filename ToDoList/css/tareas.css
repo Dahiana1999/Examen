@@ -1,13 +1,5 @@
-h2 {
-  font-family: Roboto;
-  font-size: 40px;
-  text-align: center;
-  color: aliceblue;
-  background-color: rgb(52, 0, 100);
-  padding-bottom: 20px;
-}
+
 .container {
-  display: flex;
   margin-top: 5px;
   justify-content: center;
   align-items: center;
@@ -27,7 +19,6 @@ h2 {
   border: 3px solid rgb(52, 0, 100);
   font-weight: bold;
   color: rgb(52, 0, 100);
-  outline: none;
 }
 
 .btn-add {
@@ -45,24 +36,24 @@ h2 {
   font-family: Roboto;
   font-weight: bold;
   font-size: 25px;
-  color: rgb(82, 82, 82);
-} /*ul vacio de html*/
+  color:#3c3c3c;
+} /*ul/ texto vacio de html, luego se rellena con las tareas*/
 
 
 
 li {
   list-style: none;
-  background-color: rgb(228, 208, 247);
+  background-color: rgb(220, 200, 237);
   border-radius: 10px;
   margin-top: 10px;
   display: flex;
-} /*lista de tareas creada en JS*/
+} /*lista/barrita de color con las tareas creada en JS*/
 
 li p {
   margin: 0;
   padding: 10px;
   width: 100%;
-} /*texto de la lista creada en js*/
+} /*texto y boton creada en js, aqui se marca el espacio*/
 
 .btn-delete {
     cursor: pointer;
@@ -75,7 +66,7 @@ li p {
     border-bottom-right-radius: 10px;
     width: 10%;
     font-size: 20px;
-  }
+  } /*me quede aca y falta el check y js*/
 
 .empty {
     margin-top: 50px;
