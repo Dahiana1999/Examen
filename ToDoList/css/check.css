@@ -23,7 +23,7 @@
     font-family: 'Lucida Sans';
 }
 
-.click {
+#click {
     width: 40px;
     height: 40px;
 }
@@ -35,3 +35,16 @@
     text-align: center;
     background-color: rgb(52, 0, 100);
 }
+
+.btn2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(123, 109, 137);
+    color: aliceblue;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;}

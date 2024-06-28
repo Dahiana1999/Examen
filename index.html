@@ -17,7 +17,7 @@
     </header>
     <main class="root">
       <div class="TodoList">
-        <h2>Anota tus tareas<img class="img" src="./ToDoList/img/2.png" /></h2>
+        <h2>Anota tus tareas<img class="img" src="./ToDoList/img/2.png " /></h2>
         <div class="container">
           <div class="agregar">
             <form>
@@ -36,8 +36,9 @@
         </section>
         <div class="check">
             <ul class="ul_li">
-              <input type="checkbox" class="click">
+              <input type="checkbox" id="click">
               <li class="day">Día cumplido</li>
+              <input type="button" class="btn2" value="Guardar" onclick="verificar()">
             </ul>
         </div>
     </main>

@@ -3,6 +3,7 @@ const addBtn = document.querySelector(".btn-add");
 const ul = document.querySelector("ul");
 const empty = document.querySelector(".empty");
 
+/*funcion del boton de agregar*/
 addBtn.addEventListener("click", (e) => {
   e.preventDefault();
 
@@ -22,6 +23,8 @@ addBtn.addEventListener("click", (e) => {
   }
 });
 
+
+/*funcion del boton de borrar*/
 function addDeleteBtn() {
   const deleteBtn = document.createElement("button");
 
@@ -41,3 +44,17 @@ function addDeleteBtn() {
 
   return deleteBtn;
 }
+
+
+
+/*funcion para el verificador de tareas completadas*/
+/*se puede determinar si el elemento se selecciono o no*/
+/*si se selecciona el elemento (click), se muestra un alert */
+
+function verificar() {
+
+if (document.getElementById('click').checked) {
+  alert("Has cumplido con todas tus tareas por hoy");
+}
+}
+  
