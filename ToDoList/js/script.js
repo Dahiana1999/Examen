@@ -11,7 +11,7 @@ addBtn.addEventListener("click", (e) => {
     const li = document.createElement("li");
     const p = document.createElement("p");
 
-    /*se crea el checkbox*/
+    /*se crea el checkbox para marcar las tareas*/
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.className = "cheki";
@@ -23,7 +23,7 @@ addBtn.addEventListener("click", (e) => {
         p.style.textDecoration = "none";
       }
     });
-    /*check*/
+    /*fin de la parte del check*/
 
     p.textContent = text;
 
