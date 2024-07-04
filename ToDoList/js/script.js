@@ -6,6 +6,10 @@ const empty = document.querySelector(".empty");
 /*funcion del boton de agregar*/
 addBtn.addEventListener("click", (e) => {
   const text = input.value;
+  if(text === ""){
+    alert("Por favor, escribe una tarea");
+    return;
+  }
 
   if (text !== "") {
     const li = document.createElement("li");
