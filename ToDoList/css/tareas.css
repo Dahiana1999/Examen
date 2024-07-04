@@ -29,6 +29,7 @@
   width: 70px;
   height: 30px;
   border-radius: 10px;
+  cursor: pointer;
 } /*boton de agregar*/
 
 .lista {
@@ -66,7 +67,9 @@ li p {
     border-bottom-right-radius: 10px;
     width: 10%;
     font-size: 20px;
-  } /*me quede aca y falta el check y js*/
+  } /*boton de eliminar*/
+
+  
 
 .empty {
     margin-top: 50px;
@@ -76,3 +79,10 @@ li p {
     font-weight: bold;
     color: rgb(209, 209, 209);
 }  
+
+.cheki {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -5,13 +5,26 @@ const empty = document.querySelector(".empty");
 
 /*funcion del boton de agregar*/
 addBtn.addEventListener("click", (e) => {
-  e.preventDefault(); /*para que no recargue la pagina */
-
   const text = input.value;
 
   if (text !== "") {
     const li = document.createElement("li");
     const p = document.createElement("p");
+
+    /*se crea el checkbox*/
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.className = "cheki";
+    li.appendChild(checkbox);
+    checkbox.addEventListener("click", (e) => {
+      if (checkbox.checked) {
+        p.style.textDecoration = "line-through";
+      } else {
+        p.style.textDecoration = "none";
+      }
+    });
+    /*check*/
+
     p.textContent = text;
 
     li.appendChild(p);
@@ -22,7 +35,6 @@ addBtn.addEventListener("click", (e) => {
     empty.style.display = "none";
   }
 });
-
 
 /*funcion del boton de borrar*/
 function addDeleteBtn() {
@@ -39,16 +51,12 @@ function addDeleteBtn() {
   return deleteBtn;
 }
 
-
-
 /*funcion para el verificador de tareas completadas*/
 /*se puede determinar si el elemento se selecciono o no*/
 /*si se selecciona el elemento (click), se muestra un alert */
 
 function verificar() {
-
-if (document.getElementById('click').checked) {
-  alert("Has cumplido con todas tus tareas por hoy");
+  if (document.getElementById("click").checked) {
+    alert("Has cumplido con todas tus tareas por hoy");
+  }
 }
-}
-  
